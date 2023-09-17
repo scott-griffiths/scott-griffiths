@@ -1,8 +1,8 @@
 ## About me
 
  - Currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
- - Still maintaining and improving the Python bitstring package. 
- - I've not got much else on GitHub except my quixotic idea of a clock based on a Go board.
+ - I'm still maintaining and improving the Python [bitstring](https://github.com/scott-griffiths/bitstring) package. 
+ - I've not got much else on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
 
 [![bitstring](https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png)](https://github.com/scott-griffiths/bitstring)
 
