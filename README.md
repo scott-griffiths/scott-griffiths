@@ -18,7 +18,7 @@ I'm still maintaining and improving the Python [bitstring](https://github.com/sc
 
 ----
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). I'm aiming for a first alpha release later in 2024.
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It has now been released and is currently in alpha - please try it out if you're feeling adventurous. 
 
 
 [![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
