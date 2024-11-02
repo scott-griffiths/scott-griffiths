@@ -8,7 +8,7 @@ I'm still maintaining and improving the Python [bitstring](https://github.com/sc
 
 [![bitstring](https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png)](https://github.com/scott-griffiths/bitstring)
 
-[![PyPI - Version](https://img.shields.io/pypi/v/bitstring?logo=pypi&logoColor=white)](https://pypi.org/project/bitstring/)
+[![PyPI - Version](https://img.shields.io/pypi/v/bitstring?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitstring/)
 [![CI badge](https://github.com/scott-griffiths/bitstring/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitstring/actions/workflows/ci.yml)
 [![Docs](https://img.shields.io/readthedocs/bitstring?logo=readthedocs&logoColor=white)](https://bitstring.readthedocs.io/en/latest/)
 [![Codacy Badge](https://img.shields.io/codacy/grade/8869499b2eed44548fa1a5149dd451f4?logo=codacy)](https://app.codacy.com/gh/scott-griffiths/bitstring/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
@@ -24,7 +24,7 @@ My new project is a bitwise format parsing and building library called [bitforma
 
 [![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
 
-[![PyPI - Version](https://img.shields.io/pypi/v/bitformat?logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
+[![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
 [![CI badge](https://github.com/scott-griffiths/bitformat/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitformat/actions/workflows/ci.yml)
 [![Docs](https://img.shields.io/readthedocs/bitformat?logo=readthedocs&logoColor=white)](https://bitformat.readthedocs.io/en/latest/)
 [![Codacy Badge](https://img.shields.io/codacy/grade/b61ae16cc6404d0da5dbcc21ee19ddda?logo=codacy)](https://app.codacy.com/gh/scott-griffiths/bitformat/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
