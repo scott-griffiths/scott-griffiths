@@ -37,5 +37,5 @@ My new project is a bitwise format parsing and building library called [bitforma
 
 I've not got much else on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
 
-![The Go Clock](https://github.com/scott-griffiths/go-clock/blob/d6e971af31662fb1da5acbeaf193b16f514b07c1/resources/Go_clock_small.jpeg)
+[![The Go Clock](https://github.com/scott-griffiths/go-clock/blob/d6e971af31662fb1da5acbeaf193b16f514b07c1/resources/Go_clock_small.jpeg)](http://scott-griffiths.github.io/go-clock/)
 
