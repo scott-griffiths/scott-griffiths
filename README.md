@@ -19,7 +19,7 @@ I'm still maintaining and improving the Python [bitstring](https://github.com/sc
 
 ----
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It has now been released and is currently in alpha - please try it out if you're feeling adventurous. 
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. It is currently in alpha - please try it out if you're feeling adventurous. 
 
 
 [![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
