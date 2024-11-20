@@ -4,7 +4,7 @@ Currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're mak
 
 ----
 
-I'm still maintaining and improving the Python [bitstring](https://github.com/scott-griffiths/bitstring) package. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier. It's now over 15 years old and fast approaching its 100 millionth download. 
+I'm still maintaining and improving the Python [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier. It's now over 15 years old and just passed its 100 millionth download. 
 
 [![bitstring](https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png)](https://github.com/scott-griffiths/bitstring)
 
