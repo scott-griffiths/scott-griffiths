@@ -1,12 +1,19 @@
 ## About me
 
-Currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
+I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
+
+I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ at university. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
+
 
 ----
 
-I'm still maintaining and improving the Python [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier. It's now over 15 years old and just passed its 100 millionth download. 
-
 [![bitstring](https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png)](https://github.com/scott-griffiths/bitstring)
+
+A long time ago I wanted to do some quick tasks with compressed video streams, and I couldn't find an easy way to do this in Python. So I wrote my own library, which I later made open source and put on PyPI. 
+I'm still maintaining and improving the [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier.
+
+It has now been downloaded over 100 million times. 
+
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitstring?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitstring/)
 [![CI badge](https://github.com/scott-griffiths/bitstring/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitstring/actions/workflows/ci.yml)
@@ -19,12 +26,13 @@ I'm still maintaining and improving the Python [bitstring](https://github.com/sc
 
 ----
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust with the eventual aim of also making it the most performant library for bit manipulation in Python. So overall I'm being pretty ambitious!
+[![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
+
+
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust with the aim of (eventually) making it very fast. Right now it's mostly just an excuse to learn Rust.
 
 It is currently in alpha with plenty of updates planned for 2025. Please try it out if you're feeling adventurous. 
 
-
-[![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
 [![CI badge](https://github.com/scott-griffiths/bitformat/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitformat/actions/workflows/ci.yml)
@@ -37,7 +45,10 @@ It is currently in alpha with plenty of updates planned for 2025. Please try it 
 
 ----
 
+## The Go Clock
+
 I've not got much else on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
+It's quite possibly the best go-board based clock ever constructed on the web.
 
 [![The Go Clock](https://github.com/scott-griffiths/go-clock/blob/d6e971af31662fb1da5acbeaf193b16f514b07c1/resources/Go_clock_small.jpeg)](http://scott-griffiths.github.io/go-clock/)
 
