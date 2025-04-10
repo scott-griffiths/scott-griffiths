@@ -7,7 +7,9 @@ I started programming with Basic on a ZX81 (who needs more than a kilobyte of me
 
 ----
 
-[![bitstring](https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png)](https://github.com/scott-griffiths/bitstring)
+<a href="https://github.com/scott-griffiths/bitstring">
+  <img src="https://raw.githubusercontent.com/scott-griffiths/bitstring/main/doc/bitstring_logo_small.png" alt="bitstring Logo" width="40%">
+</a>
 
 A long time ago I wanted to do some quick tasks with compressed video streams, and I couldn't find an easy way to do this in Python. So I wrote my own library, which I later made open source and put on PyPI. 
 I'm still maintaining and improving the [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier.
@@ -26,12 +28,14 @@ It has now been downloaded over 100 million times.
 
 ----
 
-[![bitformat](https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo_small.png)](https://github.com/scott-griffiths/bitformat)
+<a href="https://github.com/scott-griffiths/bitformat">
+  <img src="https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo.png" alt="bitformat Logo" width="40%">
+</a>
 
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust with the aim of (eventually) making it very fast. Right now it's mostly just an excuse to learn Rust.
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust with the aim of (eventually) making it very fast.
 
-It is currently in alpha with plenty of updates planned for 2025. Please try it out if you're feeling adventurous. 
+It is currently in beta with plenty of updates planned for 2025. Please try it out if you're feeling adventurous. 
 
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
