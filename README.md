@@ -1,9 +1,8 @@
 ## About me
 
+I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ while studying physics at university. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
+
 I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
-
-I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ at university. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
-
 
 ----
 
@@ -33,7 +32,7 @@ It has now been downloaded over 100 million times.
 </a>
 
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust with the aim of (eventually) making it very fast.
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust and it's already (mostly) quite fast.
 
 It is currently in beta with plenty of updates planned for 2025. Please try it out and let me know what you think. 
 
@@ -51,7 +50,7 @@ It is currently in beta with plenty of updates planned for 2025. Please try it o
 
 ## The Go Clock
 
-I've not got much else on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
+I've not got much else public on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
 It's quite possibly the best go-board based clock ever constructed on the web.
 
 [![The Go Clock](https://github.com/scott-griffiths/go-clock/blob/d6e971af31662fb1da5acbeaf193b16f514b07c1/resources/Go_clock_small.jpeg)](http://scott-griffiths.github.io/go-clock/)
