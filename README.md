@@ -48,6 +48,24 @@ It is currently in beta with plenty of updates planned for 2025. Please try it o
 
 ----
 
+<a href="https://github.com/scott-griffiths/tibs">
+  <img src="https://raw.githubusercontent.com/scott-griffiths/tibs/main/doc/tibs.png" alt="tibs Logo" width="150px">
+</a>
+
+My even-newer project takes the core that I've been working on for bitformat and makes it into a stand-alone library, written entirely in Rust. 
+The idea is that this core is very useful by itself and can be used for projects that don't need all the more advanced pieces of bitstring and bitformat.
+I can then use tibs as a dependency for both bitformat and bitstring.
+
+The main work at the moment is improving performance - mostly it's very good but there are some hotspots that need addressing.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
+[![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/test.yml)
+![PyPI - License](https://img.shields.io/pypi/l/tibs)
+&nbsp; &nbsp;
+[![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
+
+----
+
 ## The Go Clock
 
 I've not got much else public on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
