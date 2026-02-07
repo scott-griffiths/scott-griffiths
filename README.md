@@ -1,6 +1,6 @@
 ## About me
 
-I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ while studying physics at university. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
+I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ while studying physics. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
 
 I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
 
@@ -13,8 +13,7 @@ I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're
 A long time ago I wanted to do some quick tasks with compressed video streams, and I couldn't find an easy way to do this in Python. So I wrote my own library, which I later made open source and put on PyPI. 
 I'm still maintaining and improving the [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier.
 
-It has now been downloaded over 100 million times. 
-
+It's quite widely used, and gets several million downloads each month.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitstring?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitstring/)
 [![CI badge](https://github.com/scott-griffiths/bitstring/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitstring/actions/workflows/ci.yml)
@@ -32,9 +31,9 @@ It has now been downloaded over 100 million times.
 </a>
 
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. I'm writing the core of it in Rust and it's already (mostly) quite fast.
+My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. The core of it is written in Rust and it's already (mostly) quite fast.
 
-It is currently in beta with plenty of updates planned for 2025. Please try it out and let me know what you think. 
+It is currently in beta with plenty more planned for 2026. Please try it out and let me know what you think. 
 
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
@@ -54,12 +53,13 @@ It is currently in beta with plenty of updates planned for 2025. Please try it o
 
 My even-newer project takes the core that I've been working on for bitformat and makes it into a stand-alone library, written entirely in Rust. 
 The idea is that this core is very useful by itself and can be used for projects that don't need all the more advanced pieces of bitstring and bitformat.
-I can then use tibs as a dependency for both bitformat and bitstring.
+I plan to use tibs as a dependency for both bitformat and bitstring.
 
-The main work at the moment is improving performance - mostly it's very good but there are some hotspots that need addressing.
+The performance is now quite reasonable, with the simple API and documentation mostly complete.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
 [![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/test.yml)
+[![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
 [![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
