@@ -58,7 +58,7 @@ I plan to use tibs as a dependency for both bitformat and bitstring.
 The performance is now quite reasonable, with the simple API and documentation mostly complete.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
-[![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/test.yml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/test.yml)
+[![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/new_ci.yaml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/new_ci.yaml)
 [![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
