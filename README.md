@@ -53,7 +53,7 @@ It is currently in beta with plenty more planned for 2026. Please try it out and
 
 My even-newer project takes the core that I've been working on for bitformat and makes it into a stand-alone library, written entirely in Rust. 
 The idea is that this core is very useful by itself and can be used for projects that don't need all the more advanced pieces of bitstring and bitformat.
-I plan to use tibs as a dependency for both bitformat and bitstring.
+The bitstring library now has tibs as a dependency.
 
 The performance is now quite reasonable, with the simple API and documentation mostly complete.
 
@@ -63,6 +63,7 @@ The performance is now quite reasonable, with the simple API and documentation m
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
 [![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?label=%40&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
 
 ----
 
