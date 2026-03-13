@@ -55,15 +55,14 @@ My even-newer project takes the core that I've been working on for bitformat and
 The idea is that this core is very useful by itself and can be used for projects that don't need all the more advanced pieces of bitstring and bitformat.
 The bitstring library now has tibs as a dependency.
 
-The performance is now quite reasonable, with the simple API and documentation mostly complete.
+The performance is pretty good, with the initial API and documentation mostly complete.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
 [![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/new_ci.yaml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/new_ci.yaml)
 [![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
-[![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?label=%40&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
 
 ----
 
