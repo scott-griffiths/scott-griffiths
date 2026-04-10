@@ -62,7 +62,8 @@ The performance is pretty good, with the initial API and documentation mostly co
 [![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
+[![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?label=%40&logoColor=white&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
 
 ----
 
