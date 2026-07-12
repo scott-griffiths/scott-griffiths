@@ -13,7 +13,8 @@ I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're
 A long time ago I wanted to do some quick tasks with compressed video streams, and I couldn't find an easy way to do this in Python. So I wrote my own library, which I later made open source and put on PyPI. 
 I'm still maintaining and improving the [bitstring](https://github.com/scott-griffiths/bitstring) library. If you need to mess about with bits and bytes in Python then it's a reasonable choice to make things easier.
 
-It's quite widely used, and gets several million downloads each month.
+If you'd like to try something a bit more modern (and faster) for a new project I recommend trying out tibs (see below) which is a simpler library, written in Rust, and is 
+used as the core of bitstring.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitstring?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitstring/)
 [![CI badge](https://github.com/scott-griffiths/bitstring/actions/workflows/.github/workflows/ci.yml/badge.svg)](https://github.com/scott-griffiths/bitstring/actions/workflows/ci.yml)
@@ -26,14 +27,41 @@ It's quite widely used, and gets several million downloads each month.
 
 ----
 
+<a href="https://github.com/scott-griffiths/tibs">
+  <img src="https://raw.githubusercontent.com/scott-griffiths/tibs/main/doc/tibs.png" alt="tibs Logo" width="150px">
+</a>
+
+My newest project is a modern and more focussed bit creation and manipulation library, written entirely in Rust.
+
+This core is still feature complete and is very useful for projects that don't need all the more advanced pieces of other libraries.
+The bitstring and bitformat libraries now have tibs as a dependency.
+
+It has just reached version 1.0, with a stable API and excellent performance.
+
+Please do try it out and let me know what you think. It already gets several million downloads a month, but I'd like a wider 
+base of projects to be using it.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
+[![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/new_ci.yaml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/new_ci.yaml)
+[![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
+![PyPI - License](https://img.shields.io/pypi/l/tibs)
+&nbsp; &nbsp;
+[![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?label=%40&logoColor=white&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
+
+----
+
+
 <a href="https://github.com/scott-griffiths/bitformat">
   <img src="https://raw.githubusercontent.com/scott-griffiths/bitformat/main/doc/bitformat_logo.png" alt="bitformat Logo" width="250px">
 </a>
 
+Another of my projects is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features.
 
-My new project is a bitwise format parsing and building library called [bitformat](https://github.com/scott-griffiths/bitformat). It is already pretty solid in terms of bitwise creation and interpretation, covering much of the same ground as bitstring but with a new and more efficient API. Future work will expand the format specification and parsing features. The core of it is written in Rust and it's already (mostly) quite fast.
+The Rust core of this library was used to create tibs (see above), and when the work on tibs and bitstring settles down I plan to return to
+expanding bitformat.
 
-It is currently in beta with plenty more planned for 2026. Please try it out and let me know what you think. 
+It is currently in alpha and is likely to have significant API churn. 
 
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
@@ -45,25 +73,6 @@ It is currently in beta with plenty more planned for 2026. Please try it out and
 [![Pepy Total Downlods](https://img.shields.io/pepy/dt/bitformat?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/bitformat)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/bitformat?label=%40&labelColor=blue&color=blue)](https://pypistats.org/packages/bitformat)
 
-----
-
-<a href="https://github.com/scott-griffiths/tibs">
-  <img src="https://raw.githubusercontent.com/scott-griffiths/tibs/main/doc/tibs.png" alt="tibs Logo" width="150px">
-</a>
-
-My even-newer project takes the core that I've been working on for bitformat and makes it into a stand-alone library, written entirely in Rust. 
-The idea is that this core is very useful by itself and can be used for projects that don't need all the more advanced pieces of bitstring and bitformat.
-The bitstring library now has tibs as a dependency.
-
-The performance is pretty good, with the initial API and documentation mostly complete.
-
-[![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
-[![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/new_ci.yaml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/new_ci.yaml)
-[![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://mutibs.readthedocs.io/en/latest/)
-![PyPI - License](https://img.shields.io/pypi/l/tibs)
-&nbsp; &nbsp;
-[![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/tibs?label=%40&logoColor=white&labelColor=blue&color=blue)](https://pypistats.org/packages/tibs)
 
 ----
 
