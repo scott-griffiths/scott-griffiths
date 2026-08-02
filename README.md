@@ -43,7 +43,7 @@ base of projects to be using it.
 
 [![PyPI - Version](https://img.shields.io/pypi/v/tibs?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/tibs/)
 [![CI badge](https://github.com/scott-griffiths/tibs/actions/workflows/.github/workflows/new_ci.yaml/badge.svg)](https://github.com/scott-griffiths/tibs/actions/workflows/new_ci.yaml)
-[![Docs](https://img.shields.io/readthedocs/mutibs?logo=readthedocs&logoColor=white)](https://tibs.readthedocs.io/en/latest/)
+[![Docs](https://img.shields.io/readthedocs/tibs?logo=readthedocs&logoColor=white)](https://tibs.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/tibs)
 &nbsp; &nbsp;
 [![Pepy Total Downlods](https://img.shields.io/pepy/dt/tibs?logo=python&logoColor=white&labelColor=blue&color=blue)](https://www.pepy.tech/projects/tibs)
