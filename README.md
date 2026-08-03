@@ -3,6 +3,7 @@
 I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ while studying physics. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
 
 I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
+Company policy now insists I say that _"the opinions expressed are my own and not necessarily those of the company"_ just in case they don't agree that it's a cool place to be. 🤣
 
 ----
 
