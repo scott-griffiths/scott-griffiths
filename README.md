@@ -3,7 +3,7 @@
 I started programming with Basic on a ZX81 (who needs more than a kilobyte of memory?) before moving to a C64 then Atari ST before learing the 'proper languages' of Fortran and C++ while studying physics. My career has included a lot of video compression and baseband analysis, but lately more AI algorithms, training and performance optimisations.
 
 I'm currently working at [Graphcore](https://www.graphcore.ai) in Bristol. We're making chips for AI. It's a cool place to be.
-Company policy now insists I say that _"the opinions expressed are my own and not necessarily those of the company"_ just in case they don't agree that it's a cool place to be. 🤣
+Company policy now insists I say that _"the opinions expressed are my own and not necessarily those of the company"_ just in case they don't agree. 🙄
 
 ----
 
@@ -34,10 +34,10 @@ used as the core of bitstring.
 
 My newest project is a modern and more focussed bit creation and manipulation library, written entirely in Rust.
 
-This core is still feature complete and is very useful for projects that don't need all the more advanced pieces of other libraries.
+It is feature complete and recommended for most new projects in preference to bitstring.
 The bitstring and bitformat libraries now have tibs as a dependency.
 
-It has just reached version 1.0, with a stable API and excellent performance.
+It has now reached version 2.0, with a stable API and excellent performance.
 
 Please do try it out and let me know what you think. It already gets several million downloads a month, but I'd like a wider 
 base of projects to be using it.
@@ -62,7 +62,7 @@ Another of my projects is a bitwise format parsing and building library called [
 The Rust core of this library was used to create tibs (see above), and when the work on tibs and bitstring settles down I plan to return to
 expanding bitformat.
 
-It is currently in alpha and is likely to have significant API churn. 
+It is currently in alpha and is likely to have significant API churn, so is not recommended for serious use quite yet.
 
 
 [![PyPI - Version](https://img.shields.io/pypi/v/bitformat?label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/bitformat/)
