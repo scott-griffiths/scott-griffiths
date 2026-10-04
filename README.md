@@ -75,12 +75,3 @@ It is currently in alpha and is likely to have significant API churn, so is not 
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/bitformat?label=%40&labelColor=blue&color=blue)](https://pypistats.org/packages/bitformat)
 
 
-----
-
-## The Go Clock
-
-I've not got much else public on GitHub except my quixotic idea of [a clock based on a Go board](http://scott-griffiths.github.io/go-clock/).
-It's quite possibly the best go-board based clock ever constructed on the web.
-
-[![The Go Clock](https://github.com/scott-griffiths/go-clock/blob/d6e971af31662fb1da5acbeaf193b16f514b07c1/resources/Go_clock_small.jpeg)](http://scott-griffiths.github.io/go-clock/)
-
