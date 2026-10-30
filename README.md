@@ -81,3 +81,4 @@ which I've now returned to with the help of AI to make the features I always wan
 
 It's intended as a mobile app, but a web version missing a few mobile-only features is available <a href="https://goclock.brokensymmetry.co.uk"> here. </a>
 
+<img src="https://raw.githubusercontent.com/scott-griffiths/scott-griffiths/go-clock-strip.png" alt="The Go Clock">
