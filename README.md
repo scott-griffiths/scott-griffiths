@@ -76,9 +76,9 @@ It is currently in alpha and is likely to have significant API churn, so is not 
 
 ----
 
-The Go Clock is almost certainly the most fully-featured virtual clock on a Go board even made. This is a very unserious project that I was developing in the mid 2010s, 
+The Go Clock is almost certainly the most fully-featured virtual clock on a Go board ever made. This is a very unserious project that I was developing in the mid 2010s, 
 which I've now returned to with the help of AI to make the features I always wanted but didn't have the time or sanity to code myself.
 
 It's intended as a mobile app, but a web version missing a few mobile-only features is available <a href="https://goclock.brokensymmetry.co.uk"> here. </a>
 
-<img src="https://raw.githubusercontent.com/scott-griffiths/scott-griffiths/go-clock-strip.png" alt="The Go Clock">
+<img src="go-clock-strip.png" alt="The Go Clock">
